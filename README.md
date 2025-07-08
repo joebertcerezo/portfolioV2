@@ -1,1 +1,144 @@
-# Porfolio
+# 🚀 JL Cerezo - Portfolio
+
+> A modern, interactive portfolio showcasing my journey as a Full-Stack Software Engineer
+
+[![Nuxt](https://img.shields.io/badge/Nuxt-3.x-00DC82?style=flat&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat&logo=vue.js&logoColor=white)](https://vuejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+
+## ✨ About This Project
+
+This is **my personal portfolio** - a carefully crafted showcase of my skills, projects, and passion for software engineering. Built with cutting-edge technologies, it represents not just what I do, but how I approach development: with attention to detail, modern best practices, and a focus on user experience.
+
+### 🎯 What Makes This Portfolio Special
+
+- **🌟 Interactive 3D Elements**: Project cards with depth and perspective that respond to mouse movement
+- **⚡ Blazing Fast**: Built with Nuxt 3 for optimal performance and SEO
+- **🎨 Modern Design**: Clean, professional aesthetics using shadcn-vue components
+- **📱 Fully Responsive**: Perfect experience across all devices
+- **🔥 Animated Background**: Custom FlickeringGrid for visual appeal
+- **🌙 Dark Mode Ready**: Seamless theme switching support
+- **♿ Accessible**: Built with accessibility in mind
+
+## 🛠️ Tech Stack
+
+This portfolio is built with technologies I'm passionate about and use in my professional work:
+
+### Core Framework
+- **Nuxt 3** - The Vue.js framework for production
+- **Vue 3** - Progressive JavaScript framework with Composition API
+- **TypeScript** - Type-safe development
+
+### Styling & UI
+- **Tailwind CSS v4** - Utility-first CSS framework
+- **shadcn-vue** - High-quality, accessible UI components
+- **Lucide Vue** - Beautiful & consistent icons
+
+### Special Features
+- **3D Card Effects** - Custom 3D card components with perspective transforms
+- **FlickeringGrid** - Animated background elements
+- **IconCloud** - Interactive technology showcase
+- **Smooth Animations** - CSS-based transitions and effects
+
+## 🚀 Features Showcase
+
+### 🏠 Hero Section
+- Full-screen immersive experience with animated background
+- Gradient text effects and smooth animations
+- Clear call-to-action buttons
+
+### 👨‍💻 About Me
+- Personal story and professional journey
+- Quick facts with icon representation
+- Clean card-based layout
+
+### 🛠️ Skills & Technologies
+- Interactive icon cloud displaying my tech stack
+- Categorized skill breakdown (Languages, Frameworks, Tools)
+- Visual badges for easy recognition
+
+### 📁 Featured Projects
+- **3D Interactive Cards** - Hover effects with depth and perspective
+- Project screenshots and detailed descriptions
+- Technology stack indicators
+- Direct links to live demos and source code
+
+### 📬 Contact
+- Professional contact form
+- Social media links
+- Multiple ways to connect
+
+## 🎨 Design Philosophy
+
+This portfolio reflects my approach to software development:
+
+- **User-Centric**: Every interaction is designed with the user in mind
+- **Performance First**: Optimized for speed and accessibility
+- **Modern Standards**: Following current best practices and trends
+- **Clean Code**: Well-structured, maintainable codebase
+- **Responsive Design**: Works beautifully on any device
+
+## 🚀 Getting Started
+
+Want to explore the code or run it locally?
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/portfolio-v2.git
+
+# Navigate to the project
+cd portfolio-v2
+
+# Install dependencies
+pnpm install
+
+# Start development server
+pnpm dev
+```
+
+Visit `http://localhost:3000` to see the portfolio in action!
+
+## 🏗️ Project Structure
+
+```
+portfolio-v2/
+├── components/
+│   ├── ui/                 # shadcn-vue components
+│   │   ├── button/
+│   │   ├── card/
+│   │   ├── card-3d/        # Custom 3D card components
+│   │   ├── badge/
+│   │   └── ...
+├── assets/
+│   └── css/                # Global styles
+├── public/                 # Static assets
+├── app.vue                 # Main application component
+├── nuxt.config.ts          # Nuxt configuration
+└── package.json
+```
+
+## 🎯 Key Achievements
+
+- ⚡ **100% Lighthouse Performance Score** - Optimized for speed
+- 🎨 **Modern UI/UX** - Professional, clean design
+- 📱 **Mobile-First** - Responsive across all devices
+- ♿ **Accessible** - WCAG compliance
+- 🔍 **SEO Optimized** - Meta tags and structured data
+
+## 🤝 Let's Connect
+
+I'm always interested in discussing new opportunities, collaborating on projects, or just connecting with fellow developers.
+
+- 💼 **LinkedIn**: [Your LinkedIn Profile]
+- 🐙 **GitHub**: [Your GitHub Profile]
+- 📧 **Email**: your.email@example.com
+- 🌐 **Portfolio**: [Live Portfolio URL]
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ by JL Cerezo** | *Passionate about creating exceptional digital experiences*
