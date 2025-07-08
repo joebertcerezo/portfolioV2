@@ -130,14 +130,10 @@ portfolio-v2/
 
 I'm always interested in discussing new opportunities, collaborating on projects, or just connecting with fellow developers.
 
-- 💼 **LinkedIn**: [Your LinkedIn Profile]
-- 🐙 **GitHub**: [Your GitHub Profile]
-- 📧 **Email**: your.email@example.com
+- 💼 **LinkedIn**: [Joebert Cerezo](http://www.linkedin.com/in/joebertcerezo)
+- 🐙 **GitHub**: [joebertcerezo](https://github.com/joebertcerezo)
+- 📧 **Email**: [joebertcerezo@gmail.com](joebertcerezo@gmail.com)
 - 🌐 **Portfolio**: [Live Portfolio URL]
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
