@@ -1,10 +1,10 @@
-# 🚀 JL Cerezo - Portfolio
+# 🚀 Joebert Cerezo - Portfolio
 
 > A modern, interactive portfolio showcasing my journey as a Full-Stack Software Engineer
 
-[![Nuxt](https://img.shields.io/badge/Nuxt-3.x-00DC82?style=flat&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
+[![Nuxt](https://img.shields.io/badge/Nuxt%20-3.x-00D8C2?&logo=nuxt&logoColor=white)](https://nuxt.com/)
 [![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat&logo=vue.js&logoColor=white)](https://vuejs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-06B6D4?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4.x-06B6D4?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ## ✨ About This Project
@@ -85,16 +85,16 @@ Want to explore the code or run it locally?
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/portfolio-v2.git
+git clone https://github.com/joebertcerezo/portfolioV2.git
 
 # Navigate to the project
-cd portfolio-v2
+cd portfolioV2
 
 # Install dependencies
 pnpm install
 
 # Start development server
-pnpm dev
+pnpm run dev
 ```
 
 Visit `http://localhost:3000` to see the portfolio in action!
@@ -137,4 +137,4 @@ I'm always interested in discussing new opportunities, collaborating on projects
 
 ---
 
-**Built with ❤️ by JL Cerezo** | *Passionate about creating exceptional digital experiences*
+**Built with ❤️ by Joebert Cerezo** | *Passionate about creating exceptional digital experiences*

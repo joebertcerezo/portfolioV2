@@ -4,12 +4,7 @@
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
-    },
-  },
-  "exclude": [
-    "components"
-  ]
+      "@/*": ["./*"]
+    }
+  }
 }
