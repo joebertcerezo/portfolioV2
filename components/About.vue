@@ -7,7 +7,7 @@
           <Card class="p-8 flex-1">
             <h3 class="text-xl font-semibold mb-4">Background</h3>
             <p class="text-muted-foreground mb-3 leading-8">
-              I'm a passionate full-stack software engineer with expertise in
+              I'm a full-stack software engineer with expertise in
               modern web and mobile technologies. I love solving complex problems and
               creating intuitive applications that make a real impact.
             </p>

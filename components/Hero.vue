@@ -6,7 +6,7 @@
     <!-- FlickeringGrid Background -->
     <div class="absolute inset-0 z-0">
       <FlickeringGrid
-        class="relative overflow-x inset-0 z-0 [mask-image:radial-gradient(800px_circle_at_center,gray,transparent)]"
+        class="relative overflow-x inset-0 z-0 [mask-image:radial-gradient(900px_circle_at_center,transparent,gray)]"
         :square-size="10"
         :grid-gap="8"
         color="#6B7280"
@@ -33,8 +33,8 @@
         </ClientOnly>
         <h2 class="text-xl md:text-2xl mb-8">Full-Stack Software Engineer</h2>
         <p class="text-lg mb-10 max-w-2xl mx-auto">
-          I build scalable web and mobile applications with a focus on user experience and
-          modern technologies.
+          I build scalable web and mobile applications with a focus on user
+          experience and modern technologies.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" asChild>

@@ -26,16 +26,19 @@ This is **my personal portfolio** - a carefully crafted showcase of my skills, p
 This portfolio is built with technologies I'm passionate about and use in my professional work:
 
 ### Core Framework
+
 - **Nuxt 3** - The Vue.js framework for production
 - **Vue 3** - Progressive JavaScript framework with Composition API
 - **TypeScript** - Type-safe development
 
 ### Styling & UI
+
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **shadcn-vue** - High-quality, accessible UI components
 - **Lucide Vue** - Beautiful & consistent icons
 
 ### Special Features
+
 - **3D Card Effects** - Custom 3D card components with perspective transforms
 - **FlickeringGrid** - Animated background elements
 - **IconCloud** - Interactive technology showcase
@@ -44,27 +47,32 @@ This portfolio is built with technologies I'm passionate about and use in my pro
 ## 🚀 Features Showcase
 
 ### 🏠 Hero Section
+
 - Full-screen immersive experience with animated background
 - Gradient text effects and smooth animations
 - Clear call-to-action buttons
 
 ### 👨‍💻 About Me
+
 - Personal story and professional journey
 - Quick facts with icon representation
 - Clean card-based layout
 
 ### 🛠️ Skills & Technologies
+
 - Interactive icon cloud displaying my tech stack
 - Categorized skill breakdown (Languages, Frameworks, Tools)
 - Visual badges for easy recognition
 
 ### 📁 Featured Projects
+
 - **3D Interactive Cards** - Hover effects with depth and perspective
 - Project screenshots and detailed descriptions
 - Technology stack indicators
 - Direct links to live demos and source code
 
 ### 📬 Contact
+
 - Professional contact form
 - Social media links
 - Multiple ways to connect
@@ -104,17 +112,39 @@ Visit `http://localhost:3000` to see the portfolio in action!
 ```
 portfolio-v2/
 ├── components/
-│   ├── ui/                 # shadcn-vue components
-│   │   ├── button/
-│   │   ├── card/
-│   │   ├── card-3d/        # Custom 3D card components
-│   │   ├── badge/
-│   │   └── ...
+│   ├── About.vue           # About section component
+│   ├── Contact.vue         # Contact form section
+│   ├── Footer.vue          # Footer component
+│   ├── Header.vue          # Navigation header with theme toggle
+│   ├── Hero.vue            # Hero section with animated background
+│   ├── Projects.vue        # Featured projects showcase
+│   ├── Skills.vue          # Skills and technologies section
+│   ├── ThemeToggle.vue     # Dark/light mode toggle component
+│   └── ui/                 # shadcn-vue components
+│       ├── badge/          # Badge components
+│       ├── blur-reveal/    # Animation component
+│       ├── button/         # Button components
+│       ├── card/           # Card components
+│       ├── card-3d/        # Custom 3D card components
+│       ├── dialog/         # Modal dialog components
+│       ├── flickering-grid/ # Animated background grid
+│       └── icon-cloud/     # Interactive icon cloud
+├── composables/
+│   └── useMouseState.ts    # Mouse tracking composable
+├── lib/
+│   ├── utils.ts            # Utility functions
+│   └── constants/
+│       └── projects.ts     # Project data configuration
 ├── assets/
-│   └── css/                # Global styles
-├── public/                 # Static assets
-├── app.vue                 # Main application component
-├── nuxt.config.ts          # Nuxt configuration
+│   └── css/
+│       └── main.css        # Global styles & theme variables
+├── public/
+│   ├── images/             # Project screenshots & assets
+│   ├── favicon.ico
+│   └── robots.txt
+├── app.vue                 # Main application layout
+├── nuxt.config.ts          # Nuxt & module configuration
+├── components.json         # shadcn-vue configuration
 └── package.json
 ```
 
@@ -133,8 +163,8 @@ I'm always interested in discussing new opportunities, collaborating on projects
 - 💼 **LinkedIn**: [Joebert Cerezo](http://www.linkedin.com/in/joebertcerezo)
 - 🐙 **GitHub**: [joebertcerezo](https://github.com/joebertcerezo)
 - 📧 **Email**: [joebertcerezo@gmail.com](joebertcerezo@gmail.com)
-- 🌐 **Portfolio**: [Live Portfolio URL]
+- 🌐 **Portfolio**: [https://joebertcerezo.netlify.app](https://joebertcerezo.netlify.app)
 
 ---
 
-**Built with ❤️ by Joebert Cerezo** | *Passionate about creating exceptional digital experiences*
+**Built with ❤️ by Joebert Cerezo** | _Passionate about creating exceptional digital experiences_
