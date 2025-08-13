@@ -9,7 +9,7 @@
           <template v-for="(project, index) in projects" :key="index">
             <CardContainer>
               <CardBody @click="openProjectDialog(project)"
-                class="group/card relative h-full flex flex-col rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-blue-500/[0.1] hover:cursor-pointer transition-all duration-300">
+                class="group/card relative size-auto rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-blue-500/[0.1] hover:cursor-pointer transition-all duration-300">
                 <CardItem :translate-z="100" class="w-full mb-4">
                   <div v-if="project.image" class="h-48 rounded-xl overflow-hidden">
                     <img :src="project.image" :alt="project.title"
@@ -21,42 +21,38 @@
                   </div>
                 </CardItem>
 
-                <div class="flex flex-col flex-1">
-                  <CardItem :translate-z="50"
-                    class="text-xl font-bold text-neutral-600 dark:text-white mb-2 line-clamp-1">
-                    {{ project.title }}
-                  </CardItem>
+                <CardItem :translate-z="50"
+                  class="text-xl font-bold text-neutral-600 dark:text-white mb-2 line-clamp-1">
+                  {{ project.title }}
+                </CardItem>
 
-                  <CardItem as="p" :translate-z="60"
-                    class="text-sm text-neutral-500 dark:text-neutral-300 mb-4 line-clamp-3 flex-1">
-                    {{ project.description }}
-                  </CardItem>
+                <CardItem as="p" :translate-z="60"
+                  class="text-sm text-neutral-500 dark:text-neutral-300 mb-4 line-clamp-3">
+                  {{ project.description }}
+                </CardItem>
 
-                  <CardItem :translate-z="40" class="mb-4">
-                    <div class="flex flex-wrap gap-1 min-h-[2rem]">
-                      <Badge v-for="(tech, techIndex) in limitedTechStack(project.stack)" :key="tech" variant="outline"
-                        class="text-xs">
-                        {{ tech }}
-                      </Badge>
-                      <Badge v-if="project.stack.length > 4" variant="outline" class="text-xs bg-muted">
-                        +{{ project.stack.length - 4 }}
-                      </Badge>
-                    </div>
-                  </CardItem>
+                <CardItem :translate-z="40" class="flex flex-wrap gap-1 mb-4">
+                  <Badge v-for="(tech, techIndex) in limitedTechStack(project.stack)" :key="tech" variant="outline"
+                    class="text-xs">
+                    {{ tech }}
+                  </Badge>
+                  <Badge v-if="project.stack.length > 4" variant="outline" class="text-xs bg-muted">
+                    +{{ project.stack.length - 4 }}
+                  </Badge>
+                </CardItem>
 
-                  <div class="flex space-x-2 mt-auto">
-                    <CardItem v-if="project.demo" :translate-z="20" as="a" :href="project.demo" target="_blank"
-                      @click.stop
-                      class="flex items-center rounded-xl px-4 py-2 text-xs font-normal border border-black/[0.1] dark:border-white/[0.2] hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
-                      <ExternalLink class="h-3 w-3 mr-1" />
-                      Demo
-                    </CardItem>
-                    <CardItem :translate-z="20" as="a" :href="project.code" target="_blank" @click.stop
-                      class="flex items-center rounded-xl bg-black px-4 py-2 text-xs font-bold text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors">
-                      <Github class="h-3 w-3 mr-1" />
-                      Code
-                    </CardItem>
-                  </div>
+                <div class="flex space-x-2">
+                  <CardItem v-if="project.demo" :translate-z="20" as="a" :href="project.demo" target="_blank"
+                    @click.stop
+                    class="flex items-center rounded-xl px-4 py-2 text-xs font-normal border border-black/[0.1] dark:border-white/[0.2] hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+                    <ExternalLink class="h-3 w-3 mr-1" />
+                    Demo
+                  </CardItem>
+                  <CardItem :translate-z="20" as="a" :href="project.code" target="_blank" @click.stop
+                    class="flex items-center rounded-xl bg-black px-4 py-2 text-xs font-bold text-white dark:bg-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-200 transition-colors">
+                    <Github class="h-3 w-3 mr-1" />
+                    Code
+                  </CardItem>
                 </div>
               </CardBody>
             </CardContainer>
