@@ -21,19 +21,13 @@
               </div>
               <div class="flex items-center space-x-3">
                 <Linkedin class="h-5 w-5 text-primary" />
-                <a
-                  href="http://www.linkedin.com/in/joebertcerezo"
-                  class="hover:text-primary transition-colors"
-                  >Joebert Cerezo</a
-                >
+                <a href="http://www.linkedin.com/in/joebertcerezo" class="hover:text-primary transition-colors">Joebert
+                  Cerezo</a>
               </div>
               <div class="flex items-center space-x-3">
                 <Github class="h-5 w-5 text-primary" />
-                <a
-                  href="https://github.com/joebertcerezo"
-                  class="hover:text-primary transition-colors"
-                  >joebertcerezo</a
-                >
+                <a href="https://github.com/joebertcerezo"
+                  class="hover:text-primary transition-colors">joebertcerezo</a>
               </div>
             </div>
           </div>
@@ -42,27 +36,21 @@
             <form class="space-y-4">
               <div>
                 <label class="block text-sm font-medium mb-2">Name</label>
-                <input
-                  type="text"
+                <input type="text"
                   class="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="Your name"
-                />
+                  placeholder="Your name" />
               </div>
               <div>
                 <label class="block text-sm font-medium mb-2">Email</label>
-                <input
-                  type="email"
+                <input type="email"
                   class="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="your.email@example.com"
-                />
+                  placeholder="your.email@example.com" />
               </div>
               <div>
                 <label class="block text-sm font-medium mb-2">Message</label>
-                <textarea
-                  rows="4"
+                <textarea rows="4"
                   class="w-full px-3 py-2 border border-input rounded-md bg-background focus:outline-none focus:ring-2 focus:ring-primary"
-                  placeholder="Your message..."
-                ></textarea>
+                  placeholder="Your message..."></textarea>
               </div>
               <Button type="submit" class="w-full"> Send Message </Button>
             </form>
@@ -74,5 +62,5 @@
 </template>
 
 <script lang="ts" setup>
-import { Github, Mail, Linkedin } from "lucide-vue-next";
+import { Github, Mail, Linkedin, Download } from "lucide-vue-next";
 </script>
