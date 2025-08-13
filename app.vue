@@ -19,6 +19,9 @@
 
     <!-- Footer -->
     <Footer />
+
+    <!-- Scroll to Top Button -->
+    <ScrollToTop />
   </div>
 </template>
 

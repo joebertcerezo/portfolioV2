@@ -2,8 +2,8 @@
   <section id="about" class="py-20">
     <div class="container mx-auto px-6">
       <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Me</h2>
-      <div class="grid md:grid-cols-2 gap-12 items-stretch max-w-6xl mx-auto">
-        <div class="flex">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 items-stretch max-w-7xl mx-auto">
+        <div class="flex lg:col-span-2">
           <Card class="p-8 flex-1">
             <h3 class="text-xl font-semibold mb-4">Background</h3>
             <p class="text-muted-foreground mb-3 leading-8">
@@ -52,6 +52,20 @@
             </div>
           </Card>
         </div>
+
+        <div class="flex lg:col-span-3">
+          <Card class="p-8 flex-1">
+            <h3 class="text-xl font-semibold mb-6">Education</h3>
+            <div class="space-y-6">
+              <div class="border-l-2 border-primary/20 pl-6" v-for="about in abouts">
+                <h4 class="font-semibold text-lg">{{ about.course }}</h4>
+                <p class="text-primary font-medium">{{ about.school }}</p>
+                <p class="text-sm text-muted-foreground">{{ about.year }}</p>
+                <p class="text-sm text-muted-foreground mt-2">{{ about.description }}</p>
+              </div>
+            </div>
+          </Card>
+        </div>
       </div>
     </div>
   </section>
@@ -59,4 +73,5 @@
 
 <script lang="ts" setup>
 import { Code, Globe, Smartphone, Cloud, Database } from "lucide-vue-next";
+import { about as abouts } from "@/lib/constants/about";
 </script>
